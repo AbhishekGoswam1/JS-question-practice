@@ -37,7 +37,6 @@ The repository is structured to support long-term learning:
 
 This is more than just a repo — it’s a daily commitment to **show up**, **think deeply**, **solve problems**, and **keep growing** as a developer.
 
-> *"Success doesn't come from what you do occasionally, it comes from what you do consistently."*
 
 ---
 
