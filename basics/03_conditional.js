@@ -53,5 +53,68 @@ if(unit > 100 && unit <= 200){
     unit = 100;
 }
 
-charges += unit * 4;
+charges += unit * 4; //4rs per unit between 0-100 units
 console.log(`Total electricity bill amount = ${charges}`);
+
+
+
+
+//INR
+
+let money = prompt("Enter total money");
+console.log(`money: ${money}`);
+let notes = 0;
+
+if (500 <= money){
+    notes = Math.floor(money / 500);
+    money = money % 500;
+    console.log(`number of 500rs note ${notes}`);
+}
+
+if (money >= 200){
+    notes = Math.floor(money / 200);
+    money = money % 200;
+    console.log(`number of 200rs note ${notes}`);
+}
+
+if (money >= 100){
+    notes = Math.floor(money / 100);
+    money = money % 100;
+    console.log(`number of 100rs note ${notes}`);
+}
+
+if (money >= 50){
+    notes = Math.floor(money / 50);
+    money = money % 50;
+    console.log(`number of 50rs note ${notes}`);
+}
+
+if (money >= 20){
+    notes = Math.floor(money / 20);
+    money = money % 20;
+    console.log(`number of 20rs note ${notes}`);
+}
+
+if (money >= 10){
+    notes = Math.floor(money / 10);
+    money = money % 10;
+    console.log(`number of 10rs note ${notes}`);
+}
+
+if (money >= 5){
+    notes = Math.floor(money / 5);
+    money = money % 5;
+    console.log(`number of 5rs note ${notes}`);
+}
+
+if (money >= 2){
+    notes = Math.floor(money / 2);
+    money = money % 2;
+    console.log(`number of 2rs coin ${notes}`);
+}
+
+if (money >= 1){
+    notes = Math.floor(money / 1);
+    money = money % 1;
+    console.log(`number of 1rs coin ${notes}`);
+}
